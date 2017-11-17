@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_margen_vertical"
+    android:paddingLeft="@dimen/activity_margen_horizontal"
+    android:paddingRight="@dimen/activity_margen_horizontal"
+    android:paddingTop="@dimen/activity_margen_vertical"
+    tools:context="com.a0xb4dc0d3.gunify.Activities.ActivityLogin">
+
+    <EditText
+        android:id="@+id/etxt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editText_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etxt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editText_password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_login" />
+
+</LinearLayout>

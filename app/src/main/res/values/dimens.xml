@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    *BUENA PRACTICA*
+    Default screen margins, reference: Android Design guidelines.
+    -->
+    <dimen name="activity_margen_horizontal">16dp</dimen>
+    <dimen name="activity_margen_vertical">16dp</dimen>
+</resources>
